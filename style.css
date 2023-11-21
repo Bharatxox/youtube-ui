@@ -44,6 +44,7 @@ nav .left-menu .logo img{
 }
 nav .left-menu .menu-bar{
     padding: 0 10px;
+    cursor: pointer;
 }
 .mid-menu{
     display: flex;
