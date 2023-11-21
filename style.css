@@ -84,11 +84,18 @@ aside{
     top: 0;
     left: 0; */
 }
+aside::-webkit-scrollbar{
+    display:none
+}
 aside .element{
     display: flex;
     flex-direction: column;
     margin: 15px 0;
     width: 100%;
+}
+aside .each-row:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
 }
 aside .each-row{
     display: flex;
